@@ -1,0 +1,97 @@
+[gd_scene format=3 uid="uid://s1fj0pbyahn0"]
+
+[ext_resource type="PackedScene" uid="uid://cson74oo85nhb" path="res://scenes/zone.tscn" id="1_bw3vb"]
+
+[node name="Board" type="Control" unique_id=916133529]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=18409308]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="GridContainer" type="GridContainer" parent="CenterContainer" unique_id=1213148565]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 10
+columns = 7
+
+[node name="vide" type="Control" parent="CenterContainer/GridContainer" unique_id=1483701062]
+layout_mode = 2
+
+[node name="vide2" type="Control" parent="CenterContainer/GridContainer" unique_id=2097839861]
+layout_mode = 2
+
+[node name="vide3" type="Control" parent="CenterContainer/GridContainer" unique_id=842143334]
+layout_mode = 2
+
+[node name="gardien" parent="CenterContainer/GridContainer" unique_id=401281312 instance=ExtResource("1_bw3vb")]
+layout_mode = 2
+slot_type = 2
+
+[node name="vide4" type="Control" parent="CenterContainer/GridContainer" unique_id=1959651226]
+layout_mode = 2
+
+[node name="vide5" type="Control" parent="CenterContainer/GridContainer" unique_id=1897181209]
+layout_mode = 2
+
+[node name="vide6" type="Control" parent="CenterContainer/GridContainer" unique_id=1803554941]
+layout_mode = 2
+
+[node name="vide7" type="Control" parent="CenterContainer/GridContainer" unique_id=155534985]
+layout_mode = 2
+
+[node name="soldat" parent="CenterContainer/GridContainer" unique_id=1939267790 instance=ExtResource("1_bw3vb")]
+layout_mode = 2
+
+[node name="soldat2" parent="CenterContainer/GridContainer" unique_id=1991181261 instance=ExtResource("1_bw3vb")]
+layout_mode = 2
+
+[node name="soldat3" parent="CenterContainer/GridContainer" unique_id=208187815 instance=ExtResource("1_bw3vb")]
+layout_mode = 2
+
+[node name="soldat4" parent="CenterContainer/GridContainer" unique_id=862346296 instance=ExtResource("1_bw3vb")]
+layout_mode = 2
+
+[node name="soldat5" parent="CenterContainer/GridContainer" unique_id=228284724 instance=ExtResource("1_bw3vb")]
+layout_mode = 2
+
+[node name="vide8" type="Control" parent="CenterContainer/GridContainer" unique_id=2101617278]
+layout_mode = 2
+
+[node name="cimetiere" parent="CenterContainer/GridContainer" unique_id=1723275095 instance=ExtResource("1_bw3vb")]
+layout_mode = 2
+slot_type = 3
+
+[node name="contre" parent="CenterContainer/GridContainer" unique_id=512348301 instance=ExtResource("1_bw3vb")]
+layout_mode = 2
+slot_type = 1
+
+[node name="contre2" parent="CenterContainer/GridContainer" unique_id=1519164273 instance=ExtResource("1_bw3vb")]
+layout_mode = 2
+slot_type = 1
+
+[node name="contre3" parent="CenterContainer/GridContainer" unique_id=1739633470 instance=ExtResource("1_bw3vb")]
+layout_mode = 2
+slot_type = 1
+
+[node name="contre4" parent="CenterContainer/GridContainer" unique_id=49936003 instance=ExtResource("1_bw3vb")]
+layout_mode = 2
+slot_type = 1
+
+[node name="contre5" parent="CenterContainer/GridContainer" unique_id=256006128 instance=ExtResource("1_bw3vb")]
+layout_mode = 2
+slot_type = 1
+
+[node name="deck" parent="CenterContainer/GridContainer" unique_id=2088446072 instance=ExtResource("1_bw3vb")]
+layout_mode = 2
+slot_type = 4
