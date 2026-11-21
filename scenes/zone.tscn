@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://blhnb5g4duk67" path="res://script/zone.gd" id="1_g7a44"]
 
 [node name="zone" type="Control" unique_id=401281312]
-custom_minimum_size = Vector2(120, 160)
+custom_minimum_size = Vector2(100, 140)
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0

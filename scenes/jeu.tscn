@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://2u8vo74p4yqe"]
+
+[ext_resource type="PackedScene" uid="uid://s1fj0pbyahn0" path="res://scenes/board.tscn" id="1_b6da0"]
+
+[node name="jeu" type="Control" unique_id=1152466230]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="moitier_terrain" type="VBoxContainer" parent="." unique_id=1222823216]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 900.0
+
+[node name="terrainadv" parent="moitier_terrain" unique_id=708876461 instance=ExtResource("1_b6da0")]
+layout_mode = 2
+size_flags_vertical = 3
+offset_transform_enabled = true
+offset_transform_rotation = 3.1415927
+
+[node name="terrain" parent="moitier_terrain" unique_id=916133529 instance=ExtResource("1_b6da0")]
+layout_mode = 2
+size_flags_vertical = 3

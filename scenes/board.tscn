@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://cson74oo85nhb" path="res://scenes/zone.tscn" id="1_bw3vb"]
 
-[node name="Board" type="Control" unique_id=916133529]
+[node name="terrain" type="Control" unique_id=916133529]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -26,12 +26,15 @@ theme_override_constants/v_separation = 10
 columns = 7
 
 [node name="vide" type="Control" parent="CenterContainer/GridContainer" unique_id=1483701062]
+custom_minimum_size = Vector2(100, 140)
 layout_mode = 2
 
 [node name="vide2" type="Control" parent="CenterContainer/GridContainer" unique_id=2097839861]
+custom_minimum_size = Vector2(100, 140)
 layout_mode = 2
 
 [node name="vide3" type="Control" parent="CenterContainer/GridContainer" unique_id=842143334]
+custom_minimum_size = Vector2(100, 140)
 layout_mode = 2
 
 [node name="gardien" parent="CenterContainer/GridContainer" unique_id=401281312 instance=ExtResource("1_bw3vb")]
@@ -39,15 +42,19 @@ layout_mode = 2
 slot_type = 2
 
 [node name="vide4" type="Control" parent="CenterContainer/GridContainer" unique_id=1959651226]
+custom_minimum_size = Vector2(100, 140)
 layout_mode = 2
 
 [node name="vide5" type="Control" parent="CenterContainer/GridContainer" unique_id=1897181209]
+custom_minimum_size = Vector2(100, 140)
 layout_mode = 2
 
 [node name="vide6" type="Control" parent="CenterContainer/GridContainer" unique_id=1803554941]
+custom_minimum_size = Vector2(100, 140)
 layout_mode = 2
 
 [node name="vide7" type="Control" parent="CenterContainer/GridContainer" unique_id=155534985]
+custom_minimum_size = Vector2(100, 140)
 layout_mode = 2
 
 [node name="soldat" parent="CenterContainer/GridContainer" unique_id=1939267790 instance=ExtResource("1_bw3vb")]
@@ -66,6 +73,7 @@ layout_mode = 2
 layout_mode = 2
 
 [node name="vide8" type="Control" parent="CenterContainer/GridContainer" unique_id=2101617278]
+custom_minimum_size = Vector2(100, 140)
 layout_mode = 2
 
 [node name="cimetiere" parent="CenterContainer/GridContainer" unique_id=1723275095 instance=ExtResource("1_bw3vb")]

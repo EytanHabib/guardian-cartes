@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://deytf2rgqc8hw"]
+
+[ext_resource type="PackedScene" uid="uid://2u8vo74p4yqe" path="res://scenes/jeu.tscn" id="1_3jsns"]
+[ext_resource type="Script" uid="uid://b3qhvmrw642vn" path="res://script/partiescript.gd" id="1_mtm28"]
+[ext_resource type="PackedScene" uid="uid://mxf55wf8lhqv" path="res://scenes/main.tscn" id="2_mtm28"]
+
+[node name="partie" type="Control" unique_id=2035916526]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+script = ExtResource("1_mtm28")
+
+[node name="vraiterrain" type="VBoxContainer" parent="." unique_id=1082852092]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+theme_override_constants/separation = 0
+
+[node name="jeu" parent="vraiterrain" unique_id=1152466230 instance=ExtResource("1_3jsns")]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="main" parent="vraiterrain" unique_id=1636028660 instance=ExtResource("2_mtm28")]
+layout_mode = 2

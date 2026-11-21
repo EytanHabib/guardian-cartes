@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="guardian_cartes"
-run/main_scene="uid://s1fj0pbyahn0"
+run/main_scene="uid://deytf2rgqc8hw"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 

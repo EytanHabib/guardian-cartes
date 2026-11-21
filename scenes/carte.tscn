@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://cux4or502qitg"]
+
+[ext_resource type="Script" uid="uid://cj1xlux4nu7sb" path="res://script/cartescript.gd" id="1_yhuus"]
+
+[node name="carte" type="TextureRect" unique_id=1725846517]
+custom_minimum_size = Vector2(100, 140)
+offset_right = 100.0
+offset_bottom = 140.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("1_yhuus")

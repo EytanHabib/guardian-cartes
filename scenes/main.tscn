@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://mxf55wf8lhqv"]
+
+[ext_resource type="Script" uid="uid://cn5wbdg128dt4" path="res://mainscript.gd" id="1_o5qli"]
+
+[node name="main" type="HBoxContainer" unique_id=1636028660]
+custom_minimum_size = Vector2(0, 180)
+offset_right = 40.0
+offset_bottom = 40.0
+alignment = 1
+script = ExtResource("1_o5qli")

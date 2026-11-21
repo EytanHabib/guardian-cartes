@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="CardData" format=3 uid="uid://c4cg6ou62q042"]
+
+[ext_resource type="Script" uid="uid://jaddcc74taw7" path="res://script/carte_obj.gd" id="1_cepgp"]
+[ext_resource type="Texture2D" uid="uid://cn64dgq6d7jqh" path="res://Cartes/images/images.png" id="1_u157p"]
+
+[resource]
+script = ExtResource("1_cepgp")
+id = "0"
+type = "soldat"
+card_name = "éclaireur"
+cost = 1
+attack = 3
+defense = 1
+image = ExtResource("1_u157p")
+metadata/_custom_type_script = "uid://jaddcc74taw7"
